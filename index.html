@@ -1,0 +1,37 @@
+<html>
+<head>
+ <title>Currency Converter</title>
+ 
+ <script language="javascript"type="text/javascript" src="currency.js">
+    
+    
+ </script>
+</head>
+    
+<body>
+ <marquee>Click the Checkbox you want to convert then nter the values for the currency you want to convert in the appropriate text fields</marquee>
+   <center><table cellpadding="50px" border="1" cellspacing="10px" >
+        
+        <form name="baba">
+         <th colspan="2">Currency Converter</th>
+            <tr>
+                <td><input type="checkbox" id="1" name="radio1">Naira<input type="Text" value="" name="input1"></td>
+                
+                <td><input type="checkbox" id="2" name="radio1">Naira<input type="Text" value="" name="input2"></td>
+            </tr>
+             <tr>
+                <td><input type="checkbox" id="3" name="radio2">Dollar<input type="Text" value="" name="output1"></td>
+                <td><input type="checkbox" id="4" name="radio1">Euro<input type="Text" value="" name="output2"></td>
+            </tr>
+             <tr>
+                <td><input type="button" value="Get Exchange" onClick="Dollar()"></td>
+                <td><input type="button" value="Get Exchange" onClick="Euro();"></td>
+             </tr>
+        
+    </table>
+   <input type="button" value="Reset All" onClick="reset()">
+   </center>
+    
+</body>    
+    
+</html>
